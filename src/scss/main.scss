@@ -1,0 +1,17 @@
+@import "./utils/variables.scss";
+@import "./components/dee.scss";
+body {
+    background-color:$backgroundmain;
+    font-family: $fontmain;
+    color:$colormain;
+    margin: 0px;
+    height: 100%;
+}
+
+@import "./layout/footer.scss";
+@import "./layout/header.scss";
+@import "./layout/nav.scss";
+@import "./layout/section.scss"
+
+
+

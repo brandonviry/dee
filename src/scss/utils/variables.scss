@@ -1,0 +1,14 @@
+@use 'sass:color';
+@import "./functions.scss";
+$backgroundmain : hsl(215, 36%, 38%);
+$fontmain:Arial;
+$colormain:white;
+
+
+
+$taillecase:remTopx(6.25);
+$tailleborder:remTopx(0.188);
+
+$bgdeee : #0a1e3d;
+$ftcolor:pink;
+$borderss :color.adjust($ftcolor,$lightness: -50%);

@@ -1,0 +1,56 @@
+@import "./../utils/variables.scss";
+
+
+
+
+
+
+.case{
+  width: #{$taillecase}px;
+  height: #{$taillecase}px;
+  border: #{$tailleborder}px solid $bgdeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:#{$tailleborder}px;
+  border-radius: 15px;
+}
+
+.ligne{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.grille{
+  padding: 0px;
+  border:#{$tailleborder/2}px solid $bgdeee;
+  width: #{($taillecase+$tailleborder*2)*3}px;
+
+  background-color:  $bgdeee;
+  border-radius: 15px;
+}
+
+.color{
+  background-color:$ftcolor;
+  width: #{$taillecase/2}px;
+  height: #{$taillecase/2}px;
+  border: #{$tailleborder*2}px solid $borderss;
+  border-radius: 50%;
+  
+  
+  
+}
+
+.grille:active{
+
+  border-color:$ftcolor ;
+  background-color: $ftcolor;
+  .color, .case{
+    border-color: $ftcolor ;
+  }
+ 
+  
+
+}

@@ -1,0 +1,43 @@
+.case {
+  width: 100px;
+  height: 100px;
+  border: 3.008px solid #0a1e3d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3.008px;
+  border-radius: 15px;
+}
+
+.ligne {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.grille {
+  padding: 0px;
+  border: 1.504px solid #0a1e3d;
+  width: 318.048px;
+  background-color: #0a1e3d;
+  border-radius: 15px;
+}
+
+.color {
+  background-color: pink;
+  width: 50px;
+  height: 50px;
+  border: 6.016px solid #c00022;
+  border-radius: 50%;
+}
+
+.grille:active {
+  border-color: pink;
+  background-color: pink;
+}
+.grille:active .color, .grille:active .case {
+  border-color: pink;
+}
+
+/*# sourceMappingURL=dee.css.map */

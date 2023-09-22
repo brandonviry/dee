@@ -1,0 +1,28 @@
+nav{
+    background-color: red;
+    padding: 1em;
+    a{
+        text-decoration: none;
+        color:white;
+  
+    }
+    ul , ol,li {
+        list-style: none;
+  
+      
+    }
+ li {
+      
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .btn{
+        text-transform: uppercase;
+    
+    }
+
+
+    
+}

@@ -1,0 +1,10 @@
+section {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  padding: 1%;
+  height: 100%;
+}
+
+/*# sourceMappingURL=section.css.map */
